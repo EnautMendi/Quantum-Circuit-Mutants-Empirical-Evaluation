@@ -1,0 +1,15 @@
+from qiskit import QuantumCircuit, transpile
+from qiskit_aer import AerSimulator
+qc = QuantumCircuit(2, 2)
+qc.ry(0.304006861589844,[0])
+qc.ry(0.0562610521523687,[1])
+qc.cx([0], [1])
+qc.ry(0.183411690555527,[0])
+qc.ry(0.766417482119969,[1])
+qc.cx([0], [1])
+qc.ry(0.18126868294831,[0])
+qc.ry(0.704501496809573,[1])
+qc.cx([0], [1])
+qc.ry(0.364770216832646,[0])
+qc.ry(0.43708748495407,[1])
+qc.barrier([0], [1])
