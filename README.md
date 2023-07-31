@@ -2,7 +2,7 @@
 
 ## Data
 
-The data for this study can be obtained from [Data Source]([https://drive.google.com/drive/folders/1S4f18j00tJtZQej7RSPRG-huDGdhmoly?usp=sharing](https://www.dropbox.com/sh/y0somwhwwgkxopd/AAAJWGjyOfb9eeX8wXnzH27Va?dl=0)). The data consist of the following:
+The data for this study can be obtained from [Data Source](https://www.dropbox.com/sh/y0somwhwwgkxopd/AAAJWGjyOfb9eeX8wXnzH27Va?dl=0). The data consist of the following:
 - Original programs
 - Mutated programs
 - Origin programs execution results
