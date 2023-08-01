@@ -26,7 +26,7 @@ def getOriginInfo(line):
 
 def getGateForPosition(origin_name, position):
     splitChar = 92
-    folder_path = r'C:\Users\Enaut\Desktop\Enaut\PhD\Experiments\Final_experiments_ICSE\SelectedPrograms\Qiskit\Origin_Programs'
+    folder_path = r'Origin_Programs'
     origin_path = folder_path + chr(splitChar) + origin_name + '_rewriteCircuit.py'
     x = 1
     f = open(origin_path)
@@ -148,6 +148,6 @@ def start(origin_file, mutants_file):
         last_origin = mutants_info[0]
 
 if __name__ == "__main__":
-    origin_file = r"C:\Users\Enaut\Desktop\Enaut\PhD\Experiments\Final_experiments_ICSE\SelectedPrograms\Qiskit\Execution_ouputs\Oracle_origin\mergedOrigin.txt"
-    mutants_file = r"C:\Users\Enaut\Desktop\Enaut\PhD\Experiments\Final_experiments_ICSE\SelectedPrograms\Qiskit\Execution_ouputs\Mutants_executions\mergedMutants.txt"
+    origin_file = r"mergedOrigin.txt"
+    mutants_file = r"mergedMutants.txt"
     start(origin_file, mutants_file)
