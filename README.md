@@ -2,7 +2,7 @@
 
 ## Data
 
-The data for this study can be obtained from [Data Source](https://drive.google.com/drive/folders/1S4f18j00tJtZQej7RSPRG-huDGdhmoly?usp=drive_link). The data consists of the following:
+The data for this study can be obtained from [Data Source](https://doi.org/10.5281/zenodo.21717956). The data consists of the following:
 - Original programs
 - Mutated programs
 - Origin programs execution results
